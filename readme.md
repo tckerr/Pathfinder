@@ -12,7 +12,7 @@ Download and include the library:
 <script src="lib/pathfinder.min.js"></script>
 ```
 
-You will then be able to access the library through the ```pathfinder``` object.
+You will then be able to access the library through the ```Pathfinder``` object.
 
 Pathfinder has a single function that calculates a path between two points: ```Pathfinder.findPath(nodes, start_node, end_node)```. The arguments are as follows:
 
@@ -39,7 +39,7 @@ function buildNodes(){
     for ( var col = 0; col < columnCount; ++col ){
         nodeColumns.push([]);
         for ( var row = 0; row < rowCount; ++row ){
-            var node = new window.Pathfinder.node(col, row, true, false);
+            var node = new Pathfinder.node(col, row, true, false);
             nodeColumns[col].push(node);                
         }
     }
