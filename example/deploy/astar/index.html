@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>A* Pathfinding by Tom Kerr</title>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/main.css"></script>
+	</head>	
+	<body>		
+		<div id="title">A* Pathfinding Demonstration</div>
+		<div class="container">
+			<div id="menu" unselectable='on' onselectstart='return false;'>
+				<div class="bind">1</div><div class="menu-item" id="setstart">SET START</div>
+				<div class="bind">2</div><div class="menu-item" id="setend">SET END</div>
+				<div class="bind">3</div><div class="menu-item" id="drawwalls">DRAW WALLS</div>
+			</div>
+			<div id="playable-area" unselectable='on' onselectstart='return false;'>
+			</div>
+		</div>
+		<div class="container">
+			<div class="bigbutton" id="clearall">CLEAR ALL</div>
+			<div class="bigbutton" id="clearwall">CLEAR WALLS</div>
+		</div>
+		<div class="container">
+			<textarea readonly id="debug"></textarea>
+		</div>
+		<script type="text/javascript" src="functions.js"></script>
+		<script type="text/javascript" src="astar.js"></script>
+	</body>
+</html>

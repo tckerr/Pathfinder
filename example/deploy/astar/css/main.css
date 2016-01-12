@@ -1,0 +1,20 @@
+*{margin:0;padding:0}
+body{background-color:#eee}
+#title{width:932px;height:38px;background-color:#527E7C;color:#FFF;text-align:center;font-family:Roboto, Arial, sans-serif;font-weight:900;font-size:1.2em;padding-top:12px}
+.container{width:932px;overflow:auto}
+#playable-area{background-color:#eee;width:800px;max-width:800px;height:auto;margin-left:16px;margin-top:16px;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;display:inline-block;border:1px solid #bbb;float:right}
+.steplabel{position:absolute;font-size:.48em;font-family:Courier;color:#333;margin:5px 0 0 2px}
+#menu{width:100px;height:auto;padding-left:16px;padding-top:16px;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;display:inline-block;position:absolute;text-align:left;font-family:Roboto, Arial, sans-serif;font-weight:900}
+.bind{display:inline-block;width:14px;height:27px;background-color:#09455C;float:left;clear:left;color:#FFF;padding:5px 0 0 5px}
+.menu-item{height:19px;width:71px;color:#FFF;float:left;cursor:pointer;display:block;font-size:.6em;background-color:#527E7C;font-weight:600;margin-bottom:2px;overflow:hidden;padding:10px 5px 3px}
+.bigbutton{display:inline-block;margin-top:16px;height:30px;width:393px;background-color:#527E7C;color:#FFF;text-align:center;font-family:Roboto, Arial, sans-serif;font-weight:900;font-size:.70em;cursor:pointer;padding-top:14px;float:left}
+#clearall{margin-left:130px}
+#clearwall{margin-left:16px}
+#debug{resize:none;display:inline-block;height:136px;width:916px;background-color:#FFF;color:#09455C;font-family:Courier;font-weight:600;font-size:.70em;border:2px solid #bbb;margin:16px 0 0 16px;padding:5px}
+.menu-selected{background-color:#E0EB6E;color:#09455C}
+.block{background-color:#fff;border:1px solid #bbb;overflow:hidden}
+.block-start{background-color:#527E7C}
+.block-end{background-color:#C4D224}
+.block-wall{background-color:#09455C}
+.traversed{outline:2px solid #C4D224;outline-offset:-2px}
+#flagstart,#flagend{position:absolute}
